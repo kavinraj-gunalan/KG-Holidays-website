@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tourist website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!-- preloader -->
+   <div class="preload">
+   	<img class="airplane" src="airplane.png" alt="airplane">
+   	<h3>WELCOME TO KG HOLIDAYS....</h3>
+    <img class="cloud1" src="cloud.png" alt="cloud1">
+    <img class="cloud2" src="cloud.png" alt="cloud2">
+    <img class="cloud3" src="cloud.png" alt="cloud3">
+   </div>
+ -->
+   <!-- header -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>KG HOLIDAYS</span></a>
+        <nav class="navbar">
+             <a href="#home">home</a>
+             <a href="#packages">packages</a>
+             <a href="#services">services</a>
+             <a href="#gallery">gallery</a>
+             <a href="#review">review</a>
+             <a href="#contact">contact</a>
+             <a href="#book">book</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+         <h3>login</h3>
+         <input type="email" class="box" placeholder="enter your email">
+         <input type="password" class="box" placeholder="enter your password">
+         <input type="submit" value="login now" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember">Remember me</label>
+         <p>forgrt password? <a href="#">click here</a></p>
+         <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+  <!-- home -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>WELCOME TO KG HOLIDAYS</h3>
+        <p>travel, worldclass <br>
+        the real voyage of discovery consisnts new landscapes,but in having new eyes.
+       <span>KG Holidays</span>,the No.1 travel brand in south india</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="water.mp4"></span>
+        <span class="vid-btn" data-src="hills.mp4"></span>
+        <span class="vid-btn" data-src="location.mp4"></span>
+        <span class="vid-btn" data-src="paris.mp4"></span>
+        <span class="vid-btn" data-src="round.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="water.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img decoding="async" src="home-beach.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Maldives</h3>
+                <p>Duration : 03 Nights / 04 Days
+						 Destinations : Maldives – Day At Leisure</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="home-lake.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Hilo, Honolulu, Pearl Harbor</h3>
+                <p>Duration : 08 Nights / 09 Days
+							Destinations : Hilo – Volcanoes National Park – Wailuku River State Park</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="nap1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Duration : 07 Nights / 08 Days
+							Destinations : Hawaii- Place Of Joy</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="t1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Duration : 10 Nights / 11 Days
+							Destinations : Paris- Place Of Love</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="t2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Duration : 08 Nights / 09 Days
+							Destinations : Tokyo – Wailuku River State Park</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="t3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> eypt </h3>
+                <p>Duration : 08 Nights / 09 Days
+							Destinations : Eypt – Place Of Exacetment</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>    
+       <div class="wrapper">
+      <div class="carousel">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/05/GT-Holidays-EMI-Options-1.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/05/GT-Holidays-EMI-Option-1.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/05/EMI-Options-at-GT-Holidays.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/05/EMI-Options-GT-Holidays-1.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/05/EMI-Option-GT-Holidays-1.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/05/GT-Holidays-EMI-Options-1.jpg" alt="img" draggable="false">
+      </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>At our affordable hotels, we believe that comfort and quality shouldn’t come at a high price. Our mission is to provide you with a welcoming and enjoyable stay without breaking the bank. Whether you’re traveling for business or leisure, our hotels offer a range of amenities and services designed to meet your needs and exceed your expectations.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>At our hotel, we offer a variety of dining options to satisfy every palate. From hearty breakfasts to elegant dinners, our culinary team crafts dishes using the freshest ingredients, ensuring a memorable dining experience.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Your safety is our top priority. We are committed to providing a secure environment for all our guests. Please take a moment to familiarize yourself with our safety procedures and guidelines to ensure a safe and pleasant stay.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Embark on a gastronomic adventure with our "Around the World" dining experience. Our chefs bring the finest flavors from different corners of the globe to your table, offering a diverse and delicious selection that will tantalize your taste buds.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Maximize your travel time with our curated selection of the fastest travel options. Whether you're on a business trip, a quick getaway, or simply in a hurry, our recommendations ensure you reach your destination swiftly and comfortably</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>For those seeking excitement and a break from the ordinary, our adventure travel options are designed to ignite your spirit and push your limits. From soaring heights to deep ocean dives, embark on thrilling journeys that create unforgettable memories.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+<div class="box-container">
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Volcanoes-National-Park-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Hilo, Honolulu, Pearl Harbor</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Sydney-Opera-House-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Sydney, Brisbane, Gold Coast, CairnsAustralia- Escorted Tour</h3>
+            <p></p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Auckland-honeymoon-packags-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Auckland, Waitomo, Rotorua, Christchurch</h3>
+           <p> New Zealand Tour</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/honeymoon-package-680x500.jpeg"alt="">
+        <div class="content">
+            <h3>Mauritius, North Island, South Island</h3>
+            <p>Picturesque Mauritius Tour Package</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Aegean-island-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Athens, Mykonos, Santorini</h3>
+            <p>True Elegance Holiday Package</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/11/italy-city-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Venice, Florence, Rome</h3>
+            <p>The Splendours of Ital</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/11/London-Paris-trip-package-680x500.jpg" alt="">
+        <div class="content">
+            <h3>London, Paris</h3>
+            <p>Treasure of Europe</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Singapore-chinese-new-year-festival-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Singapore, Bintan, City Tour, Universal Studio</h3>
+            <p>Sizzling Singapore Tour with Bintan</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/hong-kong-honeymoon-trip-680x500.jpeg" alt="">
+        <div class="content">
+            <h3>Hongkong, Macau</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industrWonderful Hong Kong with Macau.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/bora-bora-beach-leisure-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Tahiti, Bora Bora</h3>
+            <p>5 Days Honeymoon Bora Bora Package</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Beach-Anse-Lazio-Praslin-tour-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Mahe, Praslin, Vallee - De - Mai, Mahe Island</h3>
+            <p>Jewels of Seychells with Mahe</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/11/pattaya-bangkok-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Koh Samui (Nathon Pier), Thailand</h3>
+            <p>Samai Phuket Holiday Delight</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/hong-kong-lantau-Island-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Hongkong, Macau</h3>
+            <p>Happening Macau with Hong Kong</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Kuala-Lumpur-malaysia-honeymoon-trip-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Malaysia, Langkawi</h3>
+            <p>Super Saver Package- Lankawi & Kuala Lumpur</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/Beach-Anse-Lazio-Praslin-tour-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Mahe, Praslin, Vallee - De - Mai, Mahe Island</h3>
+            <p>Jewels of Seychells with Mahe</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/international-honeymoon-trip-package-680x500.jpeg" alt="">
+        <div class="content">
+            <h3>Maldives</h3>
+            <p>Blissful Maldives Tour</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/honeymoon-travel-package-680x500.jpeg" alt="">
+        <div class="content">
+            <h3>Maldives, Bentota</h3>
+            <p>Amazing Maldives Honeymoon Delight.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img decoding="async" src="https://www.gtholidays.in/wp-content/uploads/2019/07/old-ruined-buildings-in-sri-lanka-680x500.jpg" alt="">
+        <div class="content">
+            <h3>Colombo, Sri Lanka</h3>
+            <p>Beauty of Sri Lanka Holiday Package</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="c1.png">
+                    <h3>ANU</h3>
+                    <p>"KG Holidays planned the perfect family trip for us. From start to finish, everything was seamless. The hotels were top-notch, and the activities were well-suited for both adults and kids. We especially loved the guided tour of the local attractions. Highly recommended!"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                    <h3>KAVIN</h3>
+                    <p>"If you're looking for an adventure, KG Holidays they to go. They organized an incredible itinerary filled with hiking, white-water rafting, and zip-lining. The guides were knowledgeable and friendly, making the whole experience safe and fun."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="https://images.pexels.com/photos/826380/pexels-photo-826380.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                    <h3>MANI</h3>
+                    <p>"I had a conference to attend in Europe, and KG Holidays take care
+                    of all my travel needs. The process was efficient, and the accommodations were perfect for a business traveler. Their attention to detail allowed me to focus on my work without any travel stress."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img decoding="async" src="https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                    <h3>Yukesh</h3>
+                    <p>We love hearing from our customers. If you've traveled with KG Holidays we invite you to share your experience. Your feedback helps us improve our services and assist future travelers in making informed decisions. Submit your review through our website, and let your adventure story inspire others.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+                </div>
+        </div>
+    </div>
+
+   	<div class="wrapper">
+      <div class="carousel">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/08/dd-gtholidays-feedback.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/08/andrea-gtholidays-review.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/08/nayan-wikki-gtholidays-review.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/08/aishwarya-rajesh-gtholidays-review.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/08/vp-luker-gtholidays-feedback.jpg" alt="img" draggable="false">
+        <img src="https://www.gtholidays.in/wp-content/uploads/2022/08/kirthika-gtholidays-feedback.jpg" alt="img" draggable="false">
+      </div>
+    </div>
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img decoding="async" src="https://images.pexels.com/photos/8867433/pexels-photo-8867433.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+
+
+
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img decoding="async" src="" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="" alt=""></div>
+            <div class="swiper-slide"><img decoding="async" src="" alt=""></div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+     
+
+        <form action="">
+              <div class="inputBox">
+                  <h3>where to</h3>
+                  <input type="text" placeholder="place name">
+              </div>
+              <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<!-- footer -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Totam natus asperiores voluptas aliquam vitae odio. Beatae doloribus facere nostrum magni.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">USA</a>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">philippines</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">package</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">book</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">likedin</a>
+        </div>
+    </div>
+ <script>
+
+window.addEventListener('load' , () =>{
+const preload = document.querySelector('.preload');
+preload.classList.add('preload-finish');
+});
+
+ 	
+ 	  let searchBtn = document.querySelector('#search-btn');
+let searchBar = document.querySelector('.search-bar-container');
+let formBtn = document.querySelector('#login-btn');
+let loginForm = document.querySelector('.login-form-container');
+let formClose = document.querySelector('#form-close');
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+let videoBtn = document.querySelectorAll('.vid-btn');
+
+
+window.onscroll = () =>{
+    searchBtn.classList.remove('fa-times');
+    searchBar.classList.remove('active');
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+    loginForm.classList.remove('active');
+}
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+});
+
+searchBtn.addEventListener('click', () =>{
+    searchBtn.classList.toggle('fa-times');
+    searchBar.classList.toggle('active');
+});
+
+formBtn.addEventListener('click', () =>{
+    loginForm.classList.add('active');
+});
+
+formClose.addEventListener('click', () =>{
+    loginForm.classList.remove('active');
+});
+
+videoBtn.forEach(btn =>{
+    btn.addEventListener('click', () =>{
+        document.querySelector('.controls .active').classList.remove('active');
+        btn.classList.add('active');
+        let src = btn.getAttribute('data-src');
+        document.querySelector('#video-slider').src = src;
+    });
+});
+
+var swiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay:{
+        delay:2500,
+        disableOnIneraction: false,
+    },
+    breakpoints: {
+        640:{
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+});
+
+var swiper = new Swiper(".brand-slider", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay:{
+        delay:2500,
+        disableOnIneraction: false,
+    },
+    breakpoints: {
+        450:{
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        991:{
+            slidesPerView: 4,
+        },
+        1200: {
+            slidesPerView: 5,
+        },
+    },
+});
+
+const carousel = document.querySelector(".carousel"),
+firstImg = carousel.querySelectorAll("img")[0],
+arrowIcons = document.querySelectorAll(".wrapper i");
+
+let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
+
+const showHideIcons = () => {
+    // showing and hiding prev/next icon according to carousel scroll left value
+    let scrollWidth = carousel.scrollWidth - carousel.clientWidth; // getting max scrollable width
+    arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
+    arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
+}
+
+arrowIcons.forEach(icon => {
+    icon.addEventListener("click", () => {
+        let firstImgWidth = firstImg.clientWidth + 14; // getting first img width & adding 14 margin value
+        // if clicked icon is left, reduce width value from the carousel scroll left else add to it
+        carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
+        setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
+    });
+});
+
+const autoSlide = () => {
+    // if there is no image left to scroll then return from here
+    if(carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
+
+    positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
+    let firstImgWidth = firstImg.clientWidth + 14;
+    // getting difference value that needs to add or reduce from carousel left to take middle img center
+    let valDifference = firstImgWidth - positionDiff;
+
+    if(carousel.scrollLeft > prevScrollLeft) { // if user is scrolling to the right
+        return carousel.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+    }
+    // if user is scrolling to the left
+    carousel.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+}
+
+const dragStart = (e) => {
+    // updatating global variables value on mouse down event
+    isDragStart = true;
+    prevPageX = e.pageX || e.touches[0].pageX;
+    prevScrollLeft = carousel.scrollLeft;
+}
+
+const dragging = (e) => {
+    // scrolling images/carousel to left according to mouse pointer
+    if(!isDragStart) return;
+    e.preventDefault();
+    isDragging = true;
+    carousel.classList.add("dragging");
+    positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
+    carousel.scrollLeft = prevScrollLeft - positionDiff;
+    showHideIcons();
+}
+
+const dragStop = () => {
+    isDragStart = false;
+    carousel.classList.remove("dragging");
+
+    if(!isDragging) return;
+    isDragging = false;
+    autoSlide();
+}
+
+carousel.addEventListener("mousedown", dragStart);
+carousel.addEventListener("touchstart", dragStart);
+
+document.addEventListener("mousemove", dragging);
+carousel.addEventListener("touchmove", dragging);
+
+document.addEventListener("mouseup", dragStop);
+carousel.addEventListener("touchend", dragStop);
+ </script>
+
+</body>
+</html>
